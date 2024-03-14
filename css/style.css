@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #212529;
+}
+a.navbar-brand:hover {
+    color: white;
+}
+a.navbar-brand {
+    color: white;
+}
+li.nav-item a.nav-link {
+    color: #9B9D97;
+}
+header {
+    background-color: #212529;
+    width: 100%;
+    box-sizing: border-box;
+    height: 460px;
+}
+h1.top-heading {
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+
+}
+p.nav-paragraph {
+    color: white;
+    opacity: 50%;
+    font-size: 1.2rem;
+}
+div.box > img {
+    width: 400px;
+    height: 270px;
+    border-radius: 3%;
+}
+section.featured-title {
+    height: 530px;
+}
+section.featured-title .container i {
+    color: rgb(43,128,253);
+    background-color: white;
+}
+.head-feature-heading {
+    font-weight: bold;
+}
+em {
+    font-size: 1.5em;
+}
+#id-tom {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 100%
+}
+#blue-side {
+    height: 10em;
+}
+#image-about {
+    width: 30em;
+}
+#input-aside {
+    width: 93%;
+}
+#i-contact {
+    width: 3em;
+    height: 2.5em;
+    background-color: rgb(43,128,253);
+    color: white;
+    display: inline-block;
+}
