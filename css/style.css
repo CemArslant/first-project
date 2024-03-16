@@ -7,8 +7,11 @@ a.navbar-brand:hover {
 a.navbar-brand {
     color: white;
 }
-li.nav-item a.nav-link {
+nav.navbar ul.nav li.nav-item a.nav-link {
     color: #9B9D97;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
 }
 header {
     background-color: #212529;
@@ -35,10 +38,10 @@ div.box > img {
 section.featured-title {
     height: 530px;
 }
-section.featured-title .container i {
+/* section.featured-title .container i {
     color: rgb(43,128,253);
     background-color: white;
-}
+} */
 .head-feature-heading {
     font-weight: bold;
 }
@@ -65,4 +68,14 @@ em {
     background-color: rgb(43,128,253);
     color: white;
     display: inline-block;
+}
+#icons-home {
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 0.5rem;
+    background-color: rgb(43,128,253);
+    color: white;
+    display: inline-block;
+    border-radius: 15%;
+
 }
