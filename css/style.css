@@ -5,10 +5,13 @@ a.navbar-brand:hover {
     color: white;
 }
 a.navbar-brand {
-    color: white;
+    color: #C2B97F;
+    opacity: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav.navbar ul.nav li.nav-item a.nav-link {
-    color: #9B9D97;
+    color: #BEEEAA;
+    opacity: 50%;
     padding-left: 0.5em;
     padding-right: 0.5em;
 
@@ -21,6 +24,7 @@ header {
 }
 h1.top-heading {
     color: white;
+    opacity: 50%;
     font-weight: bolder;
     font-size: 3em;
 
@@ -55,9 +59,11 @@ em {
 }
 #blue-side {
     height: 10em;
+    background-color:#8693AB ;
 }
 #image-about {
     width: 30em;
+    height: 20em;
 }
 #input-aside {
     width: 93%;
@@ -73,9 +79,14 @@ em {
     width: 1.5em;
     height: 1.5em;
     padding-top: 0.5rem;
-    background-color: rgb(43,128,253);
-    color: white;
+    /* background-color: rgb(43,128,253);
+    color: white; */
     display: inline-block;
     border-radius: 15%;
-
+    background-color: #55505C;
+    color: #D6F8D6;
+}
+#logo {
+    width: 8rem;
+    height: 3rem;
 }
