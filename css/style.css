@@ -71,8 +71,8 @@ em {
 #i-contact {
     width: 3em;
     height: 2.5em;
-    background-color: rgb(43,128,253);
-    color: white;
+    background-color: #D6BA73;
+    color: #626868;
     display: inline-block;
 }
 #icons-home {
@@ -89,4 +89,11 @@ em {
 #logo {
     width: 8rem;
     height: 3rem;
+}
+#islerimiz {
+    width: 9em;
+    height: 9em;
+}
+#section-about {
+    height: 37em;
 }
