@@ -1,99 +1,636 @@
 .navbar {
-    background-color: #212529;
-}
-a.navbar-brand:hover {
-    color: white;
+  background-color: rgb(30, 29, 30);
 }
 a.navbar-brand {
-    color: #C2B97F;
-    opacity: 50%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #c2b97f;
+  opacity: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-nav.navbar ul.nav li.nav-item a.nav-link {
-    color: #BEEEAA;
-    opacity: 50%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
+.collapse ul li.nav-item a.nav-link {
+  color: #beeeaa;
+  opacity: 50%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 header {
-    background-color: #212529;
-    width: 100%;
-    box-sizing: border-box;
-    height: 460px;
+  background-color: #212529;
+  width: 100%;
+  box-sizing: border-box;
+  height: 460px;
 }
 h1.top-heading {
-    color: white;
-    opacity: 50%;
-    font-weight: bolder;
-    font-size: 3em;
-
+  color: white;
+  opacity: 50%;
+  font-weight: bolder;
+  font-size: 3em;
 }
 p.nav-paragraph {
-    color: white;
-    opacity: 50%;
-    font-size: 1.2rem;
+  color: white;
+  opacity: 50%;
+  font-size: 1.2rem;
 }
 div.box > img {
-    width: 400px;
-    height: 270px;
-    border-radius: 3%;
+  width: 400px;
+  height: 270px;
+  border-radius: 3%;
 }
 section.featured-title {
-    height: 530px;
+  height: 530px;
 }
-/* section.featured-title .container i {
-    color: rgb(43,128,253);
-    background-color: white;
-} */
 .head-feature-heading {
-    font-weight: bold;
+  font-weight: bold;
 }
 em {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 #id-tom {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 100%
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 100%;
 }
 #blue-side {
-    height: 10em;
-    background-color:#8693AB ;
-}
-#image-about {
-    width: 30em;
-    height: 20em;
+  height: 10em;
+  background-color: #8693ab;
 }
 #input-aside {
-    width: 93%;
+  width: 93%;
 }
 #i-contact {
-    width: 3em;
-    height: 2.5em;
-    background-color: #D6BA73;
-    color: #626868;
-    display: inline-block;
+  width: 4em;
+  height: 3.5em;
+  background-color: #d6ba73;
+  color: #626868;
+  display: inline-block;
+  padding-top: .75rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+#i-contact1 {
+  width: 4em;
+  height: 3.5em;
+  background-color: #d6ba73;
+  color: #626868;
+  display: inline-block;
+
 }
 #icons-home {
-    width: 1.5em;
-    height: 1.5em;
-    padding-top: 0.5rem;
-    /* background-color: rgb(43,128,253);
-    color: white; */
-    display: inline-block;
-    border-radius: 15%;
-    background-color: #55505C;
-    color: #D6F8D6;
+  width: 1.5em;
+  height: 1.5em;
+  padding-top: 0.5rem;
+  display: inline-block;
+  border-radius: 15%;
+  background-color: #55505c;
+  color: #d6f8d6;
 }
 #logo {
-    width: 8rem;
-    height: 3rem;
+  width: 8rem;
+  height: 2.5rem;
 }
-#islerimiz {
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+@media (max-width: 375px) {
+  #header-about-page {
+    padding-top: 7rem;
+    height: 100%;
+  }
+  #header-about-page h2 {
+    font-size: 1.5rem;
+  }
+  #header-about-page p {
+    font-size: 1.2rem;
+  }
+  #header-about-page span a {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.15rem;
+    padding: 0;
+    padding-top: 0.6rem;
+    margin-bottom: 6rem;
+  }
+  /* #section-about-page>.container .row .col {
+    flex: 100%;
+  } Bu flex 100ü flex unset kodunun neden iptal etmediğini sor mentora */
+  #section-about-page h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  #section-about-page p {
+    font-size: 1.15rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  #section-about-page #image-about1 {
+    display: none;
+  }
+  #section-about-page #image-about2 {
+    display: none;
+  }
+  #section-about {
+    height: 100%;
+    padding-bottom: 4rem;
+  }
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
+    width: 6em;
+    height: 6em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 0.75rem;
+    font-weight: normal;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 376px) {
+  #header-about-page {
+    padding-top: 7rem;
+    height: 100%;
+  }
+  #header-about-page h2 {
+    font-size: 2rem;
+  }
+  #header-about-page p {
+    font-size: 1.2rem;
+  }
+  #header-about-page span a {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.15rem;
+    padding: 0;
+    padding-top: 0.6rem;
+    margin-bottom: 6rem;
+  }
+  /* #section-about-page>.container .row .col {
+    flex: 100%;
+  } */
+  #section-about-page h3 {
+    font-size: 1.75rem;
+    margin-top: 5rem;
+  }
+  #section-about-page p {
+    font-size: 1.15rem;
+    margin-bottom: 5rem;
+  }
+  #section-about-page #image-about1 {
+    display: none;
+  }
+  #section-about-page #image-about2 {
+    display: none;
+  }
+  #section-about {
+    height: 100%;
+    padding-bottom: 4rem;
+  }
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
     width: 9em;
     height: 9em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 3rem;
+  }
+  footer .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
-#section-about {
-    height: 37em;
+
+@media (min-width: 426px) {
+  #header-about-page {
+    padding-top: 7rem;
+    height: 100%;
+  }
+  #header-about-page h2 {
+    font-size: 2rem;
+  }
+  #header-about-page p {
+    font-size: 1.2rem;
+  }
+  #header-about-page span a {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.15rem;
+    padding: 0;
+    padding-top: 0.6rem;
+    margin-bottom: 6rem;
+  }
+  #section-about {
+    height: 100%;
+  }
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
+    width: 9em;
+    height: 9em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 3rem;
+  }
+  footer .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #header-about-page {
+    padding-top: 2rem;
+    height: 100%;
+    margin-top: 3rem;
+  }
+  #header-about-page h2 {
+    font-size: 2rem;
+  }
+  #header-about-page p {
+    font-size: 1.2rem;
+  }
+  #header-about-page span a {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.15rem;
+    padding: 0;
+    padding-top: 0.6rem;
+    margin-bottom: 6rem;
+  }
+  #section-about-page .container {
+    height: 100%;
+    margin-bottom: 4rem;
+  }
+  #section-about-page h3 {
+    font-size: 1.75rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0;
+  }
+  #section-about-page p {
+    font-size: 1.25rem;
+    margin-bottom: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #section-about-page #image-about1 {
+    display: unset;
+    width: 32em;
+    height: 20em;
+    margin-top: 6rem;
+    margin-bottom: 0;
+  }
+  #section-about-page #image-about2 {
+    display: unset;
+    width: 32em;
+    height: 20em;
+    margin-top: 6rem;
+    margin-bottom: 0;
+  }
+  #section-about {
+    height: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+  }
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
+    width: 9em;
+    height: 9em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 3rem;
+  }
+  footer .container {
+    flex: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+#section-contact {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+}
+
+@media (min-width: 768px) {
+  #header-about-page {
+    padding-top: 1rem;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  #header-about-page h2 {
+    font-size: 2.25rem;
+    margin-top: 0;
+  }
+  #header-about-page p {
+    font-size: 1.3rem;
+  }
+  #header-about-page span a {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    padding: 0;
+    padding-top: 0.5rem;
+    margin-bottom: 6rem;
+  }
+  #section-about-page .container {
+    height: 100%;
+  }
+  #section-about-page h3 {
+    font-size: 1.75rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #section-about-page p {
+    font-size: 1.25rem;
+    margin-bottom: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #section-about-page #image-about1 {
+    width: 40em;
+    height: 30em;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+  }
+  #section-about-page #image-about2 {
+    width: 40em;
+    height: 30em;
+    margin-top: 0;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+  }
+
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
+    width: 9em;
+    height: 9em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #header-about-page {
+    padding-top: 1.75rem;
+    height: 100%;
+  }
+  #header-about-page h2 {
+    font-size: 2.25rem;
+  }
+  #header-about-page p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  #header-about-page span a {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    padding-top: 0.5rem;
+    margin-bottom: 6rem;
+  }
+  #section-about-page .container {
+    height: 100%;
+  }
+  /* #section-about-page>.container .row .col {
+    flex: unset;
+  } */
+  #section-about-page h3 {
+    font-size: 2.25rem;
+    margin-top: 3rem;
+  }
+  #section-about-page p {
+    font-size: 1.25rem;
+  }
+  #section-about-page #image-about1 {
+    width: 27em;
+    height: 19em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #section-about-page #image-about2 {
+    width: 27em;
+    height: 19em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+  }
+  #section-about {
+    height: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
+    width: 9em;
+    height: 9em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header-about-page {
+    padding-bottom: 3rem;
+    height: 100%;
+  }
+  #header-about-page h2 {
+    font-size: 2.5rem;
+  }
+  #header-about-page p {
+    font-size: 1.25rem;
+  }
+  #header-about-page span a {
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  #section-about-page .container {
+    height: 100%;
+  }
+  #section-about-page h3 {
+    font-size: 2.25rem;
+    margin-top: 4rem;
+  }
+  #section-about-page p {
+    font-size: 1.25rem;
+  }
+  #section-about-page #image-about1 {
+    width: 34em;
+    height: 22em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #section-about-page #image-about2 {
+    width: 34em;
+    height: 22em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #section-about {
+    height: 100%;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  #section-about h5 {
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    margin-bottom: 1rem;
+  }
+  #section-about p {
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+  #section-about #islerimiz {
+    width: 10em;
+    height: 10em;
+    margin-bottom: 1.5rem;
+  }
+  #section-about #section-about-isim {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  #section-about #section-about-tarih {
+    font-size: 1.1rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  #header-about-page {
+    height: 100%;
+    margin-top: 6rem;
+  }
+  #header-about-page h2 {
+    font-size: 2.5rem;
+  }
+  #header-about-page p {
+    font-size: 1.5rem;
+  }
+  #section-about-page {
+    height: 36em;
+  }
+  #section-about-page h3 {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #section-about-page p {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #section-about-page #image-about1 {
+    width: 40em;
+    height: 26em;
+    margin-top: 5rem;
+  }
+  #section-about-page #image-about2 {
+    width: 40em;
+    height: 26em;
+    margin-top: 5rem;
+  }
 }
