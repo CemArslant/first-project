@@ -12,36 +12,13 @@ a.navbar-brand {
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-header {
-  background-color: #212529;
-  width: 100%;
-  box-sizing: border-box;
-  height: 460px;
-}
-h1.top-heading {
-  color: white;
-  opacity: 50%;
-  font-weight: bolder;
-  font-size: 3em;
-}
-p.nav-paragraph {
-  color: white;
-  opacity: 50%;
-  font-size: 1.2rem;
-}
-div.box > img {
-  width: 400px;
-  height: 270px;
-  border-radius: 3%;
-}
 section.featured-title {
-  height: 530px;
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .head-feature-heading {
   font-weight: bold;
-}
-em {
-  font-size: 1.5em;
 }
 #id-tom {
   width: 2.5em;
@@ -49,7 +26,7 @@ em {
   border-radius: 100%;
 }
 #blue-side {
-  height: 10em;
+  height: 100%;
   background-color: #8693ab;
 }
 #input-aside {
@@ -90,6 +67,7 @@ em {
 .navbar-collapse {
   flex-grow: 0;
 }
+
 
 @media (max-width: 375px) {
   #header-about-page {
@@ -157,6 +135,38 @@ em {
     font-size: 0.75rem;
     font-weight: normal;
     padding-bottom: 3rem;
+  }
+  #header-index-page .container-fluid {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #212529;
+    box-sizing: border-box;
+  }
+  h1.top-heading {
+    color: white;
+    opacity: 50%;
+    font-weight: bolder;
+    font-size: 1.75em;
+    text-align: center;
+  }
+  p.nav-paragraph {
+    color: white;
+    opacity: 50%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  div.box > img {
+    display: none;
+  }
+  em {
+    font-size: 1.35em;
+  }
+  #card-footer-col1 {
+    width: 25%;
+  }
+  #card-footer-col2 {
+    width: 66.66%;
   }
 }
 
@@ -228,6 +238,36 @@ em {
   footer .container {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+  #header-index-page .container-fluid {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #212529;
+    box-sizing: border-box;
+  }
+  h1.top-heading {
+    color: white;
+    opacity: 50%;
+    font-weight: bolder;
+    font-size: 1.75em;
+    text-align: center;
+  }
+  p.nav-paragraph {
+    color: white;
+    opacity: 50%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  div.box > img {
+    display: unset;
+    width: 24rem;
+    height: 16rem;
+    border-radius: 3%;
+    margin-top: 3rem;
+  }
+  em {
+    font-size: 1.4em;
   }
 }
 
@@ -375,6 +415,57 @@ em {
   margin-right: 5rem;
   margin-left: 5rem;
 }
+#header-index-page .container-fluid {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #212529;
+  box-sizing: border-box;
+}
+h1.top-heading {
+  color: white;
+  opacity: 50%;
+  font-weight: bolder;
+  font-size: 2.5em;
+  text-align: center;
+}
+p.nav-paragraph {
+  color: white;
+  opacity: 50%;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+div.box > img {
+  width: 32rem;
+  height: 20rem;
+  border-radius: 3%;
+  margin-top: 3rem;
+}
+#img-index-page1{
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
+  object-position: center 10%;
+}
+#img-index-page2{
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
+  object-position: center 100%;
+}
+#img-index-page3{
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
+  object-position: center 15%;
+}
+#card-footer-col1 {
+  width: 16.66%;
+}
+#card-footer-col2 {
+  width: 66.66%;
+}
+
 
 }
 
@@ -454,6 +545,15 @@ em {
     font-weight: normal;
     padding-bottom: 3rem;
   }
+  div.box > img {
+    width: 40rem;
+    height: 22rem;
+    border-radius: 3%;
+    margin-top: 3rem;
+  }
+  em {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -527,6 +627,52 @@ em {
   #section-about #section-about-tarih {
     font-size: 1.1rem;
   }
+  #header-index-page .container-fluid {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #212529;
+    box-sizing: border-box;
+  }
+  h1.top-heading {
+    color: white;
+    opacity: 50%;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  p.nav-paragraph {
+    color: white;
+    opacity: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+  div.box > img {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 3%;
+    margin-top: 0;
+  }
+  #img-index-page1{
+    width: unset;
+    height: unset;
+    object-fit: unset;
+    object-position: unset;
+  }
+  #img-index-page2{
+    width: unset;
+    height: unset;
+    object-fit: unset;
+    object-position: unset;
+  }
+  #img-index-page3{
+    width: unset;
+    height: unset;
+    object-fit: unset;
+    object-position: unset;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -595,6 +741,35 @@ em {
   #section-about #section-about-tarih {
     font-size: 1.1rem;
     padding-bottom: 3rem;
+  }
+  #header-index-page .container-fluid {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+    background-color: #212529;
+    box-sizing: border-box;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  h1.top-heading {
+    color: white;
+    opacity: 50%;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  p.nav-paragraph {
+    color: white;
+    opacity: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  div.box > img {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 3%;
+    margin-top: 0;
   }
 }
 
