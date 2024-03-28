@@ -25,13 +25,6 @@ section.featured-title {
   height: 2.5em;
   border-radius: 100%;
 }
-#blue-side {
-  height: 100%;
-  background-color: #8693ab;
-}
-#input-aside {
-  width: 93%;
-}
 #i-contact {
   width: 4em;
   height: 3.5em;
@@ -48,7 +41,6 @@ section.featured-title {
   background-color: #d6ba73;
   color: #626868;
   display: inline-block;
-
 }
 #icons-home {
   width: 1.5em;
@@ -63,9 +55,11 @@ section.featured-title {
   width: 8rem;
   height: 2.5rem;
 }
-
 .navbar-collapse {
   flex-grow: 0;
+}
+#blue-side .row {
+  background-color: #8693ab;
 }
 
 
@@ -162,11 +156,18 @@ section.featured-title {
   em {
     font-size: 1.35em;
   }
-  #card-footer-col1 {
+  /* #card-footer-col1 {
     width: 25%;
   }
   #card-footer-col2 {
     width: 66.66%;
+  } */
+  #blue-side .row {
+    padding: 3rem 0 2rem 0;
+  }
+  .input-group {
+    margin: auto;
+    width: 93%;
   }
 }
 
@@ -269,6 +270,23 @@ section.featured-title {
   em {
     font-size: 1.4em;
   }
+  #blue-side p:first-child {
+    font-size: 1.5rem;
+  }
+  #blue-side {
+    height: 100%;
+    margin-top: 5rem;
+  }
+  #blue-side .row {
+    padding: 2rem 0 1rem 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .input-group {
+    margin: auto;
+    width: 86%;
+  }
+  
 }
 
 @media (min-width: 426px) {
@@ -321,6 +339,11 @@ section.featured-title {
   footer .container {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+  
+  .input-group {
+    margin: auto;
+    width: 70%;
   }
 }
 
@@ -459,11 +482,15 @@ div.box > img {
   object-fit: cover;
   object-position: center 15%;
 }
-#card-footer-col1 {
+/* #card-footer-col1 {
   width: 16.66%;
 }
 #card-footer-col2 {
   width: 66.66%;
+} */
+.input-group {
+  margin: unset;
+  width: unset;
 }
 
 
@@ -553,6 +580,10 @@ div.box > img {
   }
   em {
     font-size: 1.5em;
+  }
+  .input-group {
+    margin: auto;
+    width: 79%;
   }
 }
 
@@ -673,6 +704,18 @@ div.box > img {
     object-fit: unset;
     object-position: unset;
   }
+  #blue-side p:first-child {
+    font-size: 1.5rem;
+  }
+  #blue-side .row {
+    padding: 4rem 2rem 3rem 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .input-group {
+    margin: unset;
+    width: unset;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -771,6 +814,17 @@ div.box > img {
     border-radius: 3%;
     margin-top: 0;
   }
+  #blue-side p:first-child {
+    font-size: 1.75rem;
+  }
+  #blue-side .row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .input-group {
+    width: 85%;
+    margin-left: auto;
+  }
 }
 
 
@@ -807,5 +861,9 @@ div.box > img {
     width: 40em;
     height: 26em;
     margin-top: 5rem;
+  }
+  .input-group {
+    width: 69%;
+    margin-left: auto;
   }
 }
