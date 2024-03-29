@@ -82,9 +82,6 @@ section.featured-title {
     padding-top: 0.6rem;
     margin-bottom: 6rem;
   }
-  /* #section-about-page>.container .row .col {
-    flex: 100%;
-  } Bu flex 100ü flex unset kodunun neden iptal etmediğini sor mentora */
   #section-about-page h3 {
     font-size: 1.75rem;
     text-align: center;
@@ -156,12 +153,7 @@ section.featured-title {
   em {
     font-size: 1.35em;
   }
-  /* #card-footer-col1 {
-    width: 25%;
-  }
-  #card-footer-col2 {
-    width: 66.66%;
-  } */
+
   #blue-side .row {
     padding: 3rem 0 2rem 0;
   }
@@ -190,9 +182,7 @@ section.featured-title {
     padding-top: 0.6rem;
     margin-bottom: 6rem;
   }
-  /* #section-about-page>.container .row .col {
-    flex: 100%;
-  } */
+
   #section-about-page h3 {
     font-size: 1.75rem;
     margin-top: 5rem;
@@ -482,12 +472,7 @@ div.box > img {
   object-fit: cover;
   object-position: center 15%;
 }
-/* #card-footer-col1 {
-  width: 16.66%;
-}
-#card-footer-col2 {
-  width: 66.66%;
-} */
+
 .input-group {
   margin: unset;
   width: unset;
@@ -609,9 +594,7 @@ div.box > img {
   #section-about-page .container {
     height: 100%;
   }
-  /* #section-about-page>.container .row .col {
-    flex: unset;
-  } */
+
   #section-about-page h3 {
     font-size: 2.25rem;
     margin-top: 3rem;
